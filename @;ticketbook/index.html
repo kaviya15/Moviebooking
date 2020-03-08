@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <title>imdb</title>
+</head>
+<body>
+    <header>
+        <div class="nav">
+<div class='imdb'> IMDB</div>
+         
+       <div> 
+        MOVIES</div>
+           <div>  TV SERIES
+                
+           </div>
+            <div>
+                NEWS
+                   
+               </div>
+           <div>  
+            PHOTOS
+             
+            </div>
+          <div>  
+               
+            EVENTS
+    </div>
+          <div> 
+            TRAILERS
+       </div>
+           
+           <div id="search">
+            <input type="text" placeholder="Find Movies, TV shows,Celebrities and more...">
+              <select name="" id="select">
+                  <option value="" selected>All</option>
+                  <option value=""></option>
+                 </select>
+              <i  id="icon"class="fa fa-search" aria-hidden="true"></i>
+           </div>
+           <div>
+    <i id='bookmark'class="fa fa-bookmark" aria-hidden="true"></i>
+    <i  id='circle'class="fa fa-user-circle-o" aria-hidden="true"></i>
+
+       </div>
+      
+        </div>
+
+
+<section>
+    <div class="grid">
+        <div class="item">
+            <i id='left' class="fa fa-chevron-left" aria-hidden="true"></i>
+            <img id="im1" src="img/2.jpg" alt="" width="250" height="500">
+            
+        </div>
+        <img  id='im2' src="img/bg.jpg" alt="">
+
+        <div id='item1'class="item">
+            <h1>
+                
+                MAD MAX: FURY ROAD <sub>(2015)</sub>
+                <img  id ='one'  src="img/1.jpg" alt=""width="350" height="450">
+
+            </h1> 
+            <p class="flex">
+                <ul>
+         <p>R</p>  120min
+                <li>Action,Adventure,Sci-fi</li>
+               <li>15 May 2015(USA)</li>
+                </ul> 
+                 <br> 
+              <h5>Your rating:
+
+                <i class="fa fa-star checked"  aria-hidden="true"></i>
+                <i class="fa fa-star checked"  aria-hidden="true"></i>
+
+                <i class="fa fa-star checked"  aria-hidden="true"></i>
+                <i class="fa fa-star checked"  aria-hidden="true"></i>
+                <i class="fa fa-star checked"  aria-hidden="true"></i>
+                <i class="fa fa-star checked"  aria-hidden="true"></i>
+                <i class="fa fa-star "  aria-hidden="true"></i>
+                <i class="fa fa-star "  aria-hidden="true"></i>
+                <i class="fa fa-star "  aria-hidden="true"></i>
+                <i class="fa fa-star "  aria-hidden="true"></i>
+
+            </h5>
+            <h5>
+                Ratings:8.7/10from 137,182 users 
+                Metascore:89/100
+            </h5>
+            <h5>
+                Reviewes:697 user  ,
+                502 critic , 
+                46from Metacritic.com
+               
+            </h5> <br>
+            <h4>
+                Summary
+            </h6>
+            <h4 class='ha4'>
+                In a stark desert landscape where humanity is broken , two rebels just might be able to  restore order:Max, a man of action
+                 and of few words,
+                and Furiosa, a woman of action who is looking to make it back to her childhood homeland
+            </h4> <br>
+            <h4>Director: 
+                <em> George Miller</em> , Writers: <em>GeorgeMiller,Brendan McCarthy,NickLathouris</em>
+            </h4> <br>
+            <button style='margin-left:8rem';>
+                <i class="fa fa-plus" aria-hidden="true"></i>
+                 WATCHLIST <select name="" id="">
+                     <option value=""></option>
+                 </select>
+            </button>
+            <button id="trailer" style='margin-left:8rem';>
+                <i class="fa fa-play" aria-hidden="true"></i>
+                WATCH TRAILER 
+            </button>
+            </p>
+            <i id='right' class="fa fa-chevron-right" aria-hidden="true"></i>
+
+        </div>
+        <div class="item">
+            <img id='third' src="img/3.jpg" alt=""width="250" height="500">
+        </div>
+    </div>
+</section>
+<article>
+     <h6> Now Playing : BOX OFFICE</h6>
+    <div class="imggrid">
+        <div class="i1">
+            <img src="img/m3.jpg" alt="">
+             <figcaption>
+                 Avenger's End game
+                 <br> $25.7M
+             </figcaption>
+        </div>
+        <div class="i1">
+            <img src="img/m2.jpg" alt="">
+             <figcaption>
+               Joker
+                 <br> $28.7M
+             </figcaption>
+        </div>
+        <div class="i1">
+            <img src="img/m1.jpg" alt="">
+             <figcaption>
+               The Irishman
+                 <br> $11.7M
+             </figcaption>
+        </div>
+        <div class="i1">
+            <img src="img/m4.jpg" alt="">
+             <figcaption>
+               The Witcher
+                 <br> $18.7M
+             </figcaption>
+        </div>
+        <div class="i1">
+            <img src="https://m.media-amazon.com/images/M/MV5BMjA0YjYyZGMtN2U0Ni00YmY4LWJkZTItYTMyMjY3NGYyMTJkXkEyXkFqcGdeQXVyNDg4NjY5OTQ@._V1_UX182_CR0,0,182,268_AL__QL50.jpg" alt="">
+             <figcaption>
+               Frozen-2
+                 <br> $12.7M
+             </figcaption>
+        </div>
+        <div class="i1">
+            <img src="https://m.media-amazon.com/images/M/MV5BM2MyNjYxNmUtYTAwNi00MTYxLWJmNWYtYzZlODY3ZTk3OTFlXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_UY268_CR3,0,182,268_AL__QL50.jpg" alt="">
+             <figcaption>
+               The GodFather
+                 <br> $22.7M
+             </figcaption>
+        </div>
+        <div class="i1">
+            <img src="https://m.media-amazon.com/images/M/MV5BMjAxMzY3NjcxNF5BMl5BanBnXkFtZTcwNTI5OTM0Mw@@._V1_UX182_CR0,0,182,268_AL__QL50.jpg" alt="">
+             <figcaption>
+               Inception
+                 <br> $12.7M
+             </figcaption>
+        </div>
+        <div class="i1">
+            <img src="https://m.media-amazon.com/images/M/MV5BMTMxNTMwODM0NF5BMl5BanBnXkFtZTcwODAyMTk2Mw@@._V1_UX182_CR0,0,182,268_AL__QL50.jpg" alt="">
+             <figcaption>
+             The Dark Knight
+                 <br> $35.7M
+             </figcaption>
+        </div>
+        <div class="i1">
+            <img src="https://m.media-amazon.com/images/M/MV5BYTRiNDQwYzAtMzVlZS00NTI5LWJjYjUtMzkwNTUzMWMxZTllXkEyXkFqcGdeQXVyNDIzMzcwNjc@._V1_UY268_CR7,0,182,268_AL__QL50.jpg" alt="">
+             <figcaption>
+             Game of Thrones
+                 <br> $38.7M
+             </figcaption>
+        </div>
+        <div class="i1">
+            <img src="https://m.media-amazon.com/images/M/MV5BZmE0MGJhNmYtOWNjYi00Njc5LWE2YjEtMWMxZTVmODUwMmMxXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_UX182_CR0,0,182,268_AL__QL50.jpg" alt="">
+             <figcaption>
+               LightHOuse
+                 <br> $18.7M
+             </figcaption>
+        </div>
+    </div> 
+    <br><br>
+
+<p><a href="" id="see">See more</a>
+</p> <br>
+</article>
+
+
+
+<aside>
+<div class="artimg">
+    <div class="p1">
+        <i id='l' class="fa fa-chevron-left" aria-hidden="true"></i>
+
+    </div>
+    <div class="p1">
+        <img src="img/n1.jpeg" alt="" width='150' height='200'>
+         <figcaption>
+             Natalia Tena
+         </figcaption>
+    </div>
+    <div class="p1">
+        <img  class="active"src="img/t.jpeg" alt="" width='150' height='200'>
+         <figcaption>
+             Toni Collete
+         </figcaption>
+    </div>
+    <div class="p1">
+        <img src="img/p.jpeg" alt="" width='150' height='200'>
+         <figcaption>
+penn badgley
+        </figcaption>
+    </div>
+    <div class="p1">
+        <img src="img/j.jpeg" alt="" width='150' height='200'>
+         <figcaption>
+     Jenny
+         </figcaption>
+    </div>
+    <div class="p1">
+        <img src="img/c.jpeg" alt="" width='150' height='200'>
+         <figcaption>
+     chad Lindeberg
+         </figcaption>
+    </div>
+    <div class="p1">
+        <img src="img/a.jpeg" alt="" width='150' height='200'>
+         <figcaption>
+        Aishwarya Rai
+         </figcaption>
+    </div>
+    <div class="p1">
+        <img src="img/l.jpeg" alt="" width='150' height='200'>
+         <figcaption>
+       Logan
+         </figcaption>
+    </div>
+    <div class="p1">
+        <i id='r' class="fa fa-chevron-right" aria-hidden="true"></i>
+
+    </div>
+</div>
+
+<p><a href="" id="see">See more</a></p> 
+
+
+ <br>
+</aside>
+
+
+<div class="article">
+    <h6>IMDB PICKS : MARCH</h6>
+    <div class="grif">
+        <div class="gr">
+            <img src="https://m.media-amazon.com/images/M/MV5BNjQzNDI2NTU1Ml5BMl5BanBnXkFtZTgwNTAyMDQ5NjE@._V1_UX182_CR0,0,182,268_AL__QL50.jpg" alt="" width='100' height="150">
+        </div>
+        <div class="gr">
+            <img src="https://m.media-amazon.com/images/M/MV5BNTIzOTA4MDk0Nl5BMl5BanBnXkFtZTgwMTQ5NjAxNzE@._V1_UX182_CR0,0,182,268_AL__QL50.jpg" alt=""width='100' height="150">
+        </div>
+        <div class="gr">
+            <img src="https://m.media-amazon.com/images/M/MV5BMTc5MTg2NjQ4MV5BMl5BanBnXkFtZTgwNzcxOTY5NjE@._V1_UX182_CR0,0,182,268_AL__QL50.jpg" alt=""width='100' height="150">
+        </div>
+        <div class="gr">
+            <img src="https://m.media-amazon.com/images/M/MV5BMTU3ODA0MjI0Ml5BMl5BanBnXkFtZTgwNTUwNDQxNjE@._V1_UX182_CR0,0,182,268_AL__QL50.jpg" alt=""width='100' height="150">
+        </div>
+        <div class="gr">
+            <img src='https://m.media-amazon.com/images/M/MV5BMzgwODk3ODA1NF5BMl5BanBnXkFtZTcwNjU3NjQ0Nw@@._V1_UX182_CR0,0,182,268_AL__QL50.jpg' alt=""width='100' height="150">
+        </div>
+        <div class="gr">
+            <img src="https://m.media-amazon.com/images/M/MV5BMTkyNDY1ODQwNV5BMl5BanBnXkFtZTgwNzA2MjUwNzE@._V1_UX182_CR0,0,182,268_AL__QL50.jpg" alt=""width='100' height="150">
+        </div>
+    </div>
+    <p>
+        The holidays are upon us. That means it's time of year to catch oscar hopefuls and other big movies in theaters, 'Tis the season to get hooked on TV shows to keep  you company 
+        through the winter ,too .Our IMDb picks section spotlights some of the movies and TV shows we're excited about this November, and we hope you'll find some <br>
+        favourite inside <BR>
+        <a href="">VISIT THE IMDB PICKS SECTION</a>
+        </p> <br>
+    </div>
+
+<footer>
+    <div class="foot">
+    <i class="fa fa-twitter-square" aria-hidden="true"></i>
+    <i class="fa fa-facebook-official" aria-hidden="true"></i>
+
+    <i class="fa fa-instagram" aria-hidden="true"></i> <br>
+
+    copyrights<i class="fa fa-copyright" aria-hidden="true"></i> 1990-2020 Imdb.com.Inc
+</div>
+</footer>
+</header>
+</body>
+</html>
